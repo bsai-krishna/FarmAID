@@ -15,5 +15,6 @@ Download the apk files here:
 We also propose to build a Web Application for Report generation:
 
 Link for Web Application
+</br>
 [FarmAid - Web](link)
 
