@@ -3,9 +3,8 @@
 # Solution:
 
 We propose to build two Android Applications and one Web Application:
-1. **FarmAid App** and **FarmAid Web** for Agricultural Officials
-2. **Krishi Sahayta App** for Farmers
-
+**FarmAid App** and **FarmAid Web** for Agricultural Officials
+**Krishi Sahayta App** for Farmers
 
 Download the apk files here:
   </br>
