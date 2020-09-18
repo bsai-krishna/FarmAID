@@ -1,4 +1,4 @@
-# Team name: Central-Crew
+# Team Name: Central-Crew
 # Track : Sustainable Development
 # Solution:
 
