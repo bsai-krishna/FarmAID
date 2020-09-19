@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#092956"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:layout_width="245dp"
+        android:layout_height="111dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/agritect"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="22dp"
+        />
+
+    <Spinner
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/spinner_back"
+        android:id="@+id/spinner"
+
+        />
+    <Spinner
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/spinner_back"
+        android:id="@+id/spinner_dist"
+        android:visibility="invisible"
+
+        />
+    <Spinner
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/spinner_back"
+        android:id="@+id/spinner_season"
+        android:visibility="invisible"
+
+        />
+    <ImageView
+        android:layout_width="314dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/submit"
+
+        android:id="@+id/submit"
+        android:onClick="submit_detail"
+        />
+
+
+
+
+
+
+</RelativeLayout>
