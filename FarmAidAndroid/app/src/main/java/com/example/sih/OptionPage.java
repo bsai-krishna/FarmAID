@@ -26,6 +26,8 @@ public class OptionPage extends AppCompatActivity implements AdapterView.OnItemS
         spinner_crop=findViewById(R.id.spinner_crop);
         setSpinnerData(state,season);
 
+        Toast.makeText(this, state + dist, Toast.LENGTH_SHORT).show();
+
 
     }
     String []crop;
@@ -77,9 +79,9 @@ public class OptionPage extends AppCompatActivity implements AdapterView.OnItemS
 
         }
 
-        if(state.equals("Maharastra")){
+        if(state.equals("Maharashtra")){
             if(season.equals("Rabi")){
-                crop=new String[]{"Select the crop","Rice","Wheat"};
+                crop=new String[]{"Select the crop","Rice","Soyabean","Cotton", "Arhar"};
             }
             else{
                 crop=new String[]{"Select the crop","Maize","Rice"};
@@ -109,7 +111,8 @@ public class OptionPage extends AppCompatActivity implements AdapterView.OnItemS
     String crop_string;
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-        crop_string=spinner_crop.getSelectedItem().toString();
+        crop_string = spinner_crop.getSelectedItem().toString();
+        Toast.makeText(this, crop_string, Toast.LENGTH_SHORT).show();
 
     }
 
