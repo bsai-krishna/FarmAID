@@ -11,7 +11,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 public class HomePage extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    String[] country = { "State", "Uttar Pradesh", "Bihar", "Punjab", "Maharastra","Haryana"};
+    String[] country = { "State", "Uttar Pradesh", "Bihar", "Punjab", "Maharashtra","Haryana"};
     Spinner sp_dis,spin,sp_season;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,7 +99,7 @@ public class HomePage extends AppCompatActivity implements AdapterView.OnItemSel
 
             }
 
-            if ((spin.getSelectedItem().equals("Maharastra"))) {
+            if ((spin.getSelectedItem().equals("Maharashtra"))) {
                 up_dist = new String[]{"Ahmednagar","Akola","Amravati","Aurangabad","Beed","Bhandara","Chandrapur","Dhule","Gadchiroli","Gondia","Hingoli","Jalgaon","Jalna","Kolhapur","Latur","Mumbai City","Mumbai Suburban","Nagpur",
                         "Nanded","Nandurbar","Nashik","Osmanabad","Parbhani","Pune","Raigad","Ratnagiri","Sangli","Satara","Sindhudurg","Solapur","Thane","Wardha","Washim","Yavatmal","Palghar"};
                 sp_dis.setVisibility(View.VISIBLE);
