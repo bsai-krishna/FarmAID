@@ -12,7 +12,6 @@ We propose to build two Android Applications and one Web Application:
   </br>
 
 We also propose to build a Web Application for Report generation:
-  
-  </br>
-**FarmAid Web**
+    </br>
+FarmAid Web
 
