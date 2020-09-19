@@ -10,13 +10,13 @@ We propose to build two Android Applications and one Web Application:
 
 Download the apk files here:
   </br>
-  [FarmAid - App](link)
+  [FarmAid - App](link) - link will be available soon
   </br>
-  [Krishi Sahayta](link)
+  [Krishi Sahayta](link) - link will be available soon
 
 We also propose to build a Web Application for Report generation:
   </br>
   Link for Web Application
   </br>
-  [FarmAid - Web](link)
+  [FarmAid - Web](link) - link will be available soon
 
